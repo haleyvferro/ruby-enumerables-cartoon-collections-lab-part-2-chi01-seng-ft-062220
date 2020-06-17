@@ -13,7 +13,10 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-summon_captain_planet.each do |
+  calls_array = []
+  while summon_captain_planet.each do |element|
+    calls_array << "#{element.capitalize}!"
+   end
 end
 
 def long_planeteer_calls(planeteer_calls)
