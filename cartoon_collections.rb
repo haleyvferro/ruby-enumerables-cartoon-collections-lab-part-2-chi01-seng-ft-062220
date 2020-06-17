@@ -13,9 +13,11 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
+  calls_array = []
   while summon_captain_planet.each do 
-    puts "#{summon_captain_planet.capitalize}!"
+    calls_array << "#{summon_captain_planet.capitalize}!"
    end
+   calls_array
 end
 
 def long_planeteer_calls(planeteer_calls)
