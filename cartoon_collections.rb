@@ -1,5 +1,5 @@
 def square_array(array)
-  array.map{ |element| element ** 2}
+ array.map{ |element| element**2}
   end
  
   new_array
