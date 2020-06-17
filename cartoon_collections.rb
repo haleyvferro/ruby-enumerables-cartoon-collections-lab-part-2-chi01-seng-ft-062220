@@ -1,5 +1,5 @@
 def square_array(array)
- array.map{ |element| element**2}
+ array.map{ |num| num ** num}
   end
 
   # Use an Enumerable to square every element in the passed in array
