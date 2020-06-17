@@ -17,6 +17,7 @@ def summon_captain_planet(planeteer_calls)
   while summon_captain_planet.each do |element|
     calls_array << "#{element.capitalize}!"
    end
+   calls_array
 end
 
 def long_planeteer_calls(planeteer_calls)
