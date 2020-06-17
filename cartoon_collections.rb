@@ -1,17 +1,12 @@
 def square_array(array)
  array.map{ |num| num * num}
 
-
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
 end
 
 def summon_captain_planet(planeteer_calls)
-  calls_array = []
-  while summon_captain_planet.each do 
-    calls_array << "#{summon_captain_planet.capitalize}!"
-   end
-   calls_array
+
 end
 
 def long_planeteer_calls(planeteer_calls)
